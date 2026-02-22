@@ -2,8 +2,6 @@
     padding: 0px;
     margin: 0px;
     text-decoration: none ;
-    box-sizing: border-box;
-
 }
 body{
    
@@ -17,18 +15,23 @@ header{
     background-size: cover;
     background-position:center;
     display:flex;
-    justify-content: space-between;
-    padding: 20px;
-    position: relative;
-    
+    justify-content:space-around;
+    padding: 20px;    
     
 }
+
+header li a{
+    color: rgba(255, 255, 255, 0.871);
+    font-size: 20px; 
+}
+
 .navbar{
     max-height:max-content ;
 }
 
 
 header .logo{
+    color: white;
     font-size: 20px;
     font-weight: bold;
     max-height: max-content;
@@ -43,89 +46,109 @@ header .logo{
     gap: 20px;
   
 }
-
-a{
-    color: white;
-}
-
-.good {
-    position: absolute;
-    width: 920px;
-    height: 180px;
-    border: 0.5px solid rgba(0, 0, 0, 0.1);
+.good{
+    border: 1px solid black;
     background-color:white;
-    border-radius: 30px;
-    top: 100%;
+    border-radius: 50px;
+    display: inline-block;
+    justify-content:center;
+    align-items: center;
+    height: 190px;
+    width: 90%;
+    position: relative;
+    top: 110%;
     left: 50%;
     transform: translate(-50%,-50%);
-    
-}
-.good h1{
-    font-size: 40px;
-    font-weight: bold;
-    margin: 10px 0px 0px 20px;
-    color: rgb(14, 92, 122);
-    text-transform: capitalize;
 }
 
-.good #p{
+.good h1{
+    color: #194d96c0;
+    font-size: 50px;
+    height: max-content;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-transform: capitalize;
+
+}   
+
+.good p{
     font-size: 20px;
-    margin-left: 20px;
-    color: black;
-    font-size: 18px;
-    }
+    height: max-content;
+    margin-left: 40px;
+}
 
 .centrer{
-    border: 1px solid black;
-    position: absolute;
-    border-radius: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: center;
+    text-align: center;
+    position: absolute;
+    border: 1px solid black;
+    height: 100px;
     height: max-content;
-    width: 95%;
-    margin: 0px 20px;
-    gap: 20px;
-    bottom: 20px;
+    width: 90%;
+    top: 70%;
+    left: 5%;
+    border-radius: 80px;
+    gap: 50px;
+
 }
 
 #date-out, #date-in, #localisation, #guest{
     display: inline-flex;
-    justify-content:space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    gap: 10px;
+   
 }
+
 #date-out, #date-in, #guest{
     border-left: 0.2px solid rgba(0, 0, 0, 0.255);
 }
 
-.centrer i{
-    padding: 10px;  
-    border-radius: 50%;
-    font-size: 30px;
+#search{
+    background-color:rgb(68, 148, 166);
+    border-radius: 20px;
+    height: max-content;
 }
 
-.element{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.centrer i{
+    font-size: 40px;
 }
 
 .fa-solid.fa-magnifying-glass{
-    background-color: rgb(125, 205, 237);
-    font-size: 35px;
-    border-radius: 50%;
-}
-.choose{
-    position: absolute;
-    bottom: auto;
-    margin:  20px 0px;
-    padding: 100px;
-    width: 100%; 
-    justify-content: center;
+    height: max-content;
+    font-size: 40px;
+    color: white;
+    font-weight:600;
 }
 
+.centrer h3{
+    width: max-content;
+    text-transform: capitalize;
+}
+
+.centrer p{
+    width: max-content;
+    margin-left: 0px;
+    text-shadow:rgba(228, 221, 221, 0.26);
+}
+
+.element{
+    height: max-content;
+    width: max-content;
+}
+
+.choose{
+    position: relative;
+    bottom: auto;
+    width: 100%; 
+    justify-content: center;
+    margin-top: 0px;
+}
 #us{
     text-transform: uppercase;
     font-size: 30px;
@@ -134,7 +157,6 @@ a{
     margin: 40px 50px;
     text-align: center;
 }
-
 .di{
     display: inline-block;
     flex-direction: row;
@@ -143,17 +165,21 @@ a{
     text-align: center ;
     margin: 20px 0px;
 }
+
 .di i{
     font-size: 50px;
     background-color: rgba(126, 197, 225, 0.269);
     margin: 0px 20px;
 }
+
 .di-container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    width: 1295px;
 }
+
 .cont-i{
     padding-bottom: 20px;
 }
@@ -163,8 +189,7 @@ a{
 }
 
 .partners{
-    padding: 500px;
-    position: absolute;
+    position: relative;
     width:100%;
     align-items: center;
     display: flex;
@@ -173,21 +198,50 @@ a{
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
+    margin-top: 40px;
 }
+
 .top{
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 600px;
+    position: relative;
+}
+.top h1{
+    font-size: 30px;
+    color: #041319f2;
+    margin-top: 50px;
+    margin: 40px 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px #041319;
 }
 
 .card-container{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 50px;
+    width: 1300px;
 }
-.card{
-    display: block  ;  
+
+.stars{
+    position: absolute;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: #04131934;
+    top: 30%;
+    
+    
 }
+
+#etoile{
+    color: rgb(227, 183, 53);
+}
+
+#chif{
+    color:white;
+}
+
