@@ -245,3 +245,61 @@ header .logo{
     color:white;
 }
 
+.descrit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.location{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.see-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    height:  max-content;
+    width: 160px;
+    height: 50px;
+    margin: auto;
+    border-radius: 80px;
+    position: relative;
+    top: 50px;
+}
+.see-all h1{
+    font-size: 20px;
+    color: #041319f2;
+}
+.see-all i{
+    font-size: 15px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 10px;
+}
+.cover-toow{
+    background-image: url(image\ 13.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;  
+
+};    
+
+.see-all-2{
+    border: 1px solid black;
+}
