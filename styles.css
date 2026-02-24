@@ -191,14 +191,17 @@ header .logo{
 .partners{
     position: relative;
     width:100%;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.part-container{
     display: flex;
-    text-align: center;
     justify-content: center;
-    text-align: center;
-    justify-content: center;
-    text-transform: uppercase;
-    margin-top: 40px;
+    align-items: center;
+    gap: 50px;
+    width: 1300px;
 }
 
 .top{
@@ -273,21 +276,25 @@ header .logo{
     border: 1px solid black;
     height:  max-content;
     width: 160px;
-    height: 50px;
+    height: 40px;
     margin: auto;
     border-radius: 80px;
     position: relative;
-    top: 50px;
+    top: 0px;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 .see-all h1{
-    font-size: 20px;
+    font-size: 15px;
     color: #041319f2;
+    text-align: center;
+    padding-top: 15px;
 }
 .see-all i{
     font-size: 15px;
     margin-bottom: 20px;
-    position: absolute;
-    top: 10px;
+    position: relative;
+    
 }
 .cover-toow{
     background-image: url(image\ 13.png);
@@ -295,11 +302,92 @@ header .logo{
     height: 100%;
     width: 100%;
     padding: 20px;
-    display: flex;
+    display: block-flex;
     justify-content: space-around;  
 
-};    
+}
+
+#explore-maldives{
+    color: white; 
+    text-align: center; 
+    font-size:90px; 
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr{
+    border: 1px solid white;
+    width: 90%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.img-text{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+    width: 1320.95px;
+    gap: 70px;
+}
+.text{
+    padding-bottom: 65px;
+}
+
+.text p{
+    color: white; 
+    font-size: 25px;
+}
+
+.img{
+    display: inline-flex;
+    gap: 30px;
+}
 
 .see-all-2{
     border: 1px solid black;
+    border-radius: 80px; 
+    height: 40px; 
+    width: 155px;
+    background-color: white;
+    margin-top: 15px;
+
+}
+.see-all-2 h1{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.feature{
+    position: relative;
+    display: block;
+    justify-content: center;
+    top: 40px;
+    margin-left: 40px;
+}
+
+.feature h1{
+    margin-bottom: 25px;
+    
+}
+
+.connt-table {
+    border: 1px solid black;
+    width: max-content;
+    border-radius: 20px;
+    overflow: hidden;
+    
+
+}
+.now{
+    display:flex ;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sous-img{
+    margin-left: 20px;
 }
