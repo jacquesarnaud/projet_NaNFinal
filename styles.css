@@ -11,7 +11,7 @@ body{
 header{
     height: 100vh;
     width: 100%;
-    background-image: url(image\ 7.png);
+    background-image: url(image/image\ 7.png);
     background-size: cover;
     background-position:center;
     display:flex;
@@ -316,9 +316,9 @@ header .logo{
     
 }
 .cover-toow{
-    background-image: url(image\ 13.png);
+    background-image: url(image/image\ 13.png);
     background-size: cover;
-    height: 7   0vh;
+    height: 90vh;
     width: 100vw    ;
     padding: 20px;
     display: block-flex;
@@ -412,7 +412,7 @@ hr{
 }   
 
 .cover-3{
-    background:linear-gradient(rgba(0, 0, 0, 0.705)),url(piscine.jpeg);
+    background:linear-gradient(rgba(0, 0, 0, 0.705)),url(image/piscine.jpeg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -497,7 +497,7 @@ hr{
     margin: auto;
     padding: 20px;
     border-radius: 50px;
-    background-image: url(Rectangle\ 33.png);
+    background-image: url(image/Rectangle\ 33.png);
     background-repeat: no-repeat;
     width: 70%;
     height: 200px ;
