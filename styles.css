@@ -237,26 +237,27 @@ header .logo{
 
 .card-container-1 , .card-container-2{
     display: inline-flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
     gap: 50px;
     width: 1300px;
+    margin-bottom: 30px;
 }
 
-.card-container-1 .stars{
+.card-container-1 .stars , .card-container-2 .stars{
      position: absolute;
     border: 1px solid ;
     border-radius: 5px;
-    background-color: #04131934;
-    top: 30%;
+    background-color: #041319be;
+    top: 5%;
+    left: 80%;
+
 }
 
-.card-container-2 .stars{
-    position: absolute;
-    border: 1px solid ;
-    border-radius: 5px;
-    background-color: #000000f3;
+.card{
+    position: relative;
 }
 
 #etoile{
@@ -316,7 +317,7 @@ header .logo{
     
 }
 .cover-toow{
-    background-image: url(image/image\ 13.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.705)),url(image/image\ 13.png);
     background-size: cover;
     height: 90vh;
     width: 100vw    ;
@@ -335,11 +336,18 @@ header .logo{
     margin-bottom: 40px;
 }
 
+#tx h3{
+    color: white;
+    font-size: 20px;
+}
+
 hr{
     border: 1px solid white;
-    width: 90%;
+    width: 83%;
     margin-bottom: 30px;
     align-items: center;
+    margin-left: 90px;
+  
 }
 
 .img-text{
@@ -383,12 +391,16 @@ hr{
     position: relative;
     display: block;
     justify-content: center;
+    align-items: center;
     top: 0px;
     margin-left: 40px;
+    margin-top: 40px;
 }
 
 .feature h1{
     margin-bottom: 25px;
+    margin-left: 180px;
+    text-transform:capitalize;
     
 }
 
@@ -397,9 +409,9 @@ hr{
     width: max-content;
     border-radius: 20px;
     overflow: hidden;
-    
-
+    width: 300px;
 }
+
 .now{
     display:flex ;
     justify-content:center;
@@ -409,7 +421,22 @@ hr{
 
 .sous-img{
     margin-left: 20px;
+    padding-top: 15px;
+
 }   
+
+.sous-img h3{
+    margin: 15px 0px 15px 0px;
+}
+
+.sous-img h4{
+    margin-bottom: 20px;
+    color: rgba(29, 29, 212, 0.74);
+}
+
+.sous-img p{
+    margin-bottom: 30px;
+}
 
 .cover-3{
     background:linear-gradient(rgba(0, 0, 0, 0.705)),url(image/piscine.jpeg);
@@ -440,6 +467,7 @@ hr{
     width: 450px;
     border-radius: 40px;
     background-color: white;
+    position: relative;
 }
 
 #text-sous {
@@ -467,6 +495,11 @@ hr{
     padding-top: 0px;
     padding-left: 0px;
     color: #f1d116f2;
+}
+
+#photo{
+    top: -25px;
+    left: 50px;
 }
 
 .testimonials img{
